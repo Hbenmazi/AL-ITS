@@ -454,14 +454,3 @@ def mask2compact_mask(mask: torch.BoolTensor):
     for i in range(num_slices):
         compact_mask = compact_mask + mask[:, :, i].int()
     return compact_mask.bool()
-
-
-if __name__ == "__main__":
-    train_data_path = "../data/STATICS/STATICS_train.csv"
-    test_data_path = "../data/STATICS/STATICS_test.csv"
-    pid2pidx_path = "../data/STATICS/pid2pidx.json"
-    cid2cidx_path = "../data/STATICS/cid2cidx.json"
-    pidx2cidx_path = "../data/STATICS/pidx2cidx.json"
-    cidx2cname_path = "../data/STATICS/cidx2cname.json"
-    raw_data, problem_map = read_data_from_file(train_data_path, pid2pidx_path, cid2cidx_path, pidx2cidx_path,
-                                                cidx2cname_path)
