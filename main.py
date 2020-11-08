@@ -2,6 +2,9 @@
 Usage:
     main.py --model=<model_name> --dataset=<dataset_name>  [options]
 
+        <model_name>  The model to be used in [DKT, DKTEnhanced]
+        <dataset_name>  Dataset to be used in [STATICS, assist2009, assist2015]
+
 Options:
     -h --help                               show this screen.
     --gpu=<int>                             use GPU [default: 0]
