@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="hzw@202.120.38.2:65320 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="hzw@202.120.38.2:65320 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/projects/AL-ITS" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
